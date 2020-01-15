@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/imageStar"
+        android:background="@drawable/star" />
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:background="@drawable/square_option"
+        android:id="@+id/imageSquare" />
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:background="@drawable/triangle_sele"
+        android:id="@+id/imageTriangle" />
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:background="@drawable/trapezoid_sele"
+        android:id="@+id/imageTrapezoid" />
+</LinearLayout>
